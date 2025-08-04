@@ -44,7 +44,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gitlab ? (
+      {/* {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}
           className="icon-button gitlab"
@@ -54,9 +54,9 @@ export default function socialMedia() {
           <i className="fab fa-gitlab"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.facebook ? (
+      {/* {socialMediaLinks.facebook ? (
         <a
           href={socialMediaLinks.facebook}
           className="icon-button facebook"
@@ -66,9 +66,9 @@ export default function socialMedia() {
           <i className="fab fa-facebook-f"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.instagram ? (
+      {/* {socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}
           className="icon-button instagram"
@@ -78,9 +78,9 @@ export default function socialMedia() {
           <i className="fab fa-instagram"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.twitter ? (
+      {/* {socialMediaLinks.twitter ? (
         <a
           href={socialMediaLinks.twitter}
           className="icon-button twitter"
@@ -90,9 +90,9 @@ export default function socialMedia() {
           <i className="fab fa-twitter"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.medium ? (
+      {/* {socialMediaLinks.medium ? (
         <a
           href={socialMediaLinks.medium}
           className="icon-button medium"
@@ -102,9 +102,9 @@ export default function socialMedia() {
           <i className="fab fa-medium"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.stackoverflow ? (
+      {/* {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
           className="icon-button stack-overflow"
@@ -114,7 +114,7 @@ export default function socialMedia() {
           <i className="fab fa-stack-overflow"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
       {socialMediaLinks.kaggle ? (
         <a

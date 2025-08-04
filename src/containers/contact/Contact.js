@@ -33,7 +33,8 @@ export default function Contact() {
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    target="_blank"
+                    href="https://wa.me/6281265833657"
                   >
                     {contactInfo.number}
                   </a>

@@ -1,26 +1,52 @@
 @import "../../_globalColor";
 
-.meter {
-  height: 20px;
-  position: relative;
-  background: $progressBarBackground;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-}
-.meter > span {
-  display: block;
-  height: 100%;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-color: $progressBarSpanBG;
-  position: relative;
-  overflow: hidden;
-}
 .skill {
-  line-height: 3.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+
+.skill:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.skill p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.skill-level {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.level-basic {
+  background-color: #ffdddd;
+  color: #b22222;
+  border: 1px solid #f5bcbc;
+}
+
+.level-intermediate {
+  background-color: #d6eaff;
+  color: #1e3a8a;
+  border: 1px solid #a9d1ff;
+}
+
+.level-advanced {
+  background-color: #d5fbe2;
+  color: #14532d;
+  border: 1px solid #a5eec7;
 }
 .skill-bars {
   font-size: 28px;
